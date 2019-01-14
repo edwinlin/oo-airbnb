@@ -7,7 +7,7 @@ class Guest
 		@@all << self
 	end
 
-	def listing
+	def listings
 		trips.map do |trip|
 			trip.listing
 		end

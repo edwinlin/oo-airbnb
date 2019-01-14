@@ -17,6 +17,9 @@ listing4 = Listing.new("NY")
 
 trip1 = Trip.new(guest1, listing1, 10)
 trip2 = Trip.new(guest2, listing2, 10)
-trip3 = Trip.new(guest2, listing2, 10)
+trip3 = Trip.new(guest3, listing3, 10)
+trip4 = Trip.new(guest2, listing3, 10)
+trip5 = Trip.new(guest1, listing4, 10)
+trip6 = Trip.new(guest4, listing3, 10)
 
 binding.pry
